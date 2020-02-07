@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import MainBlog from './components/MainBlog';
 import CardSection from './components/CardSection';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <CardSection />
         <CardSection />
         <CardSection />
+        <Footer />
       </div>
     </div>
   );
