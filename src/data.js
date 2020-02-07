@@ -1,100 +1,108 @@
 const data = [
   {
     id: 1,
-    category: 'Marketing',
+    category: 'Viajes',
     articles: [
       {
         id: 1,
-        title: 'Como ejecutar anuncios en facebook con bajo presupuesto',
+        title: 'Viajar en motocicleta con bajo presupuesto',
         author: 'El Mark',
-        category: 'Digital Marketing',
+        category: 'Viajes',
         content:
-          'Bajo presupuesto, en ese caso debes conoces estos consejo para sacar todo el jugo a los anuncios de facebook',
-        date: '06/02/2020'
+          'Bajo presupuesto, en ese caso debes conoces estos consejo para sacar todo el jugo a tu viaje en moto',
+        date: '06/02/2020',
+        imgUrl: './img/m1.jpg'
       },
       {
         id: 2,
-        title: 'Como ejecutar anuncios en facebook con bajo presupuesto',
-        author: 'El Mark',
-        category: 'Digital Marketing',
+        title: 'Como ahorrar combustible',
+        author: 'El_Ahorrador',
+        category: 'Viajes',
         content:
-          'Bajo presupuesto, en ese caso debes conoces estos consejo para sacar todo el jugo a los anuncios de facebook',
-        date: '06/02/2020'
+          'Mientras más rinde tu combustible, mayor recorrido tendras, aprende a consumir menos...',
+        date: '06/02/2020',
+        imgUrl: './img/m2.jpg'
       },
       {
         id: 3,
-        title: 'Como ejecutar anuncios en facebook con bajo presupuesto',
-        author: 'El Mark',
-        category: 'Digital Marketing',
+        title: 'Seguridad ante todo',
+        author: 'El_Seguro',
+        category: 'Viajes',
         content:
-          'Bajo presupuesto, en ese caso debes conoces estos consejo para sacar todo el jugo a los anuncios de facebook',
-        date: '06/02/2020'
+          'Las motocicletas pueden ser muy inseguras, si no tomas las precauciones que te mencionamos en este articulo',
+        date: '06/02/2020',
+        imgUrl: './img/m3.jpg'
       }
     ]
   },
   {
     id: 2,
-    category: 'activacion de marca',
+    category: 'Lugares',
     articles: [
       {
         id: 1,
-        title: 'Como ejecutar anuncios en facebook con bajo presupuesto',
-        author: 'El Mark',
-        category: 'Digital Fitnes',
+        title: 'Grandes ciudades, comodidad y diversión',
+        author: 'La_GranCiudad',
+        category: 'Lugares',
         content:
-          'Bajo presupuesto, en ese caso debes conoces estos consejo para sacar todo el jugo a los anuncios de facebook',
-        date: '06/02/2020'
+          'Porque visitar una gran ciudad es lo que quieres hacer en tus proximas vacaciones...',
+        date: '06/02/2020',
+        imgUrl: './img/b1.jpg'
       },
       {
         id: 2,
-        title: 'Como ejecutar anuncios en facebook con bajo presupuesto',
-        author: 'El Mark',
-        category: 'Digital Fitnes',
-        content:
-          'Bajo presupuesto, en ese caso debes conoces estos consejo para sacar todo el jugo a los anuncios de facebook',
-        date: '06/02/2020'
+        title: 'Fuera estres, bienvenida la relajación',
+        author: 'El_relax',
+        category: 'Lugares',
+        content: '¿Quieres relajarte?, visitar uno de estos pueblo te ayudara...',
+        date: '06/02/2020',
+        imgUrl: './img/b2.jpg'
       },
       {
         id: 3,
-        title: 'Como ejecutar anuncios en facebook con bajo presupuesto',
-        author: 'El Mark',
-        category: 'Digital Fitnes',
+        title: 'Sitios de interes historico',
+        author: 'machu_pichu',
+        category: 'Lugares',
         content:
-          'Bajo presupuesto, en ese caso debes conoces estos consejo para sacar todo el jugo a los anuncios de facebook',
-        date: '06/02/2020'
+          'Aprender y divertirte pueden ir de la mano, visitando estos increibles lugares ...',
+        date: '06/02/2020',
+        imgUrl: './img/b3.jpg'
       }
     ]
   },
   {
     id: 3,
-    category: 'Optimización de ventas',
+    category: 'Caminos',
     articles: [
       {
         id: 1,
-        title: 'Como ejecutar anuncios en facebook con bajo presupuesto',
-        author: 'El Mark',
-        category: 'Digital Fitnes',
+        title: 'Grandes caminos, grandes paisajes',
+        author: 'camino_bonito',
+        category: 'Caminos',
         content:
-          'Bajo presupuesto, en ese caso debes conoces estos consejo para sacar todo el jugo a los anuncios de facebook',
-        date: '06/02/2020'
+          'En este articulo, te decimos cuales son los caminos que mientras viajas tienes un maravilloso panorama...',
+        date: '06/02/2020',
+        imgUrl: './img/c1.jpg'
       },
       {
         id: 2,
-        title: 'Como ejecutar anuncios en facebook con bajo presupuesto',
-        author: 'El Mark',
-        category: 'Digital Fitnes',
+        title: 'Los puentes, tan necesarios y bien hechos',
+        author: 'El_srPuentes',
+        category: 'Caminos',
         content:
-          'Bajo presupuesto, en ese caso debes conoces estos consejo para sacar todo el jugo a los anuncios de facebook',
-        date: '06/02/2020'
+          'Descubre cuales son los puentes con una muy buena infraestructura que no podras creer como lo hicieron...',
+        date: '06/02/2020',
+        imgUrl: './img/c2.jpg'
       },
       {
         id: 3,
-        title: 'Como ejecutar anuncios en facebook con bajo presupuesto',
-        author: 'El Mark',
-        category: 'Digital Fitnes',
+        title: 'Conexión a tierra firme',
+        author: 'Union',
+        category: 'Caminos',
         content:
-          'Bajo presupuesto, en ese caso debes conoces estos consejo para sacar todo el jugo a los anuncios de facebook',
-        date: '06/02/2020'
+          'Grandes ciudades son construidos en porciones de isla fuera de tierra fierme, mira estas fotos de los caminos que los unen...',
+        date: '06/02/2020',
+        imgUrl: './img/c3.jpg'
       }
     ]
   }

@@ -27,12 +27,12 @@ const App = () => {
            *para provocar un error, ya que cada sección corresponde a una categoría en concreto
            */}
           <section className="mb-4">
-            <h2 className="text-primary mb-3">Digital Marketing</h2>
+            <h2 className="text-primary mb-3">Viajes</h2>
             {/*
              *Si la posición indicada cumple la condición crear el component CardSection
              *si no renderiza el component Alert
              */}
-            {data[0].category === 'Marketing' ? (
+            {data[0].category === 'Viajes' ? (
               <CardSection key={data[0].id} data={data[0]} />
             ) : (
               <Alert />
@@ -43,12 +43,12 @@ const App = () => {
 
           {/*La seccion se renderiza si cumple con la condicion */}
           <section className="mb-4">
-            <h2 className="text-primary mb-3">Activación de Marca</h2>
+            <h2 className="text-primary mb-3">Lugares</h2>
             {/*
              *Si la posición indicada cumple la condición crear el component CardSection
              *si no renderiza el component Alert
              */}
-            {data[1].category === 'activacion de marca' ? (
+            {data[1].category === 'Lugares' ? (
               <CardSection key={data[1].id} data={data[1]} />
             ) : (
               <Alert />
@@ -59,12 +59,12 @@ const App = () => {
 
           {/*La seccion se renderiza si cumple con la condicion */}
           <section className="mb-4">
-            <h2 className="text-primary mb-3">Optimización de ventas</h2>
+            <h2 className="text-primary mb-3">Caminos</h2>
             {/*
              *Si la posición indicada cumple la condición crear el component CardSection
              *si no renderiza el component Alert
              */}
-            {data[2].category === 'Optimización de ventas' ? (
+            {data[2].category === 'Caminos' ? (
               <CardSection key={data[2].id} data={data[2]} />
             ) : (
               <Alert />

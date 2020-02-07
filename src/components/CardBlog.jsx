@@ -4,11 +4,7 @@ const CardBlog = props => {
   return (
     <>
       <div className="card mb-4 mr-lg-5" style={{ width: '18rem' }}>
-        <img
-          src="https://images.unsplash.com/photo-1558980394-34764db076b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
-          className="card-img-top"
-          alt="imagen no encontrada"
-        />
+        <img src={props.imgUrl} className="card-img-top" alt="imagen no encontrada" />
         <div className="card-body">
           <span className="font-weight-bold text-primary">{props.category}</span>
           <h5 className="card-title h5">{props.title}</h5>

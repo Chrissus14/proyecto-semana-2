@@ -13,10 +13,12 @@ const CardSection = ({ data }) => {
         {data.articles.map(item => (
           <CardBlog
             key={item.id}
+            title={item.title}
             category={item.category}
             author={item.author}
             content={item.content}
             date={item.date}
+            imgUrl={item.imgUrl}
           />
         ))}
       </div>
