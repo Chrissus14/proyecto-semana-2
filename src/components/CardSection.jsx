@@ -1,12 +1,19 @@
 import React from 'react';
 import CardBlog from './CardBlog';
 
-const CardSection = props => {
+const CardSection = ({ data }) => {
   return (
     <>
-      <h3 className="text-primary">Digital marketing</h3>
-      <div className="d-md-flex flex-row justify-content-between">
-        <CardBlog />
+      <div className="d-md-flex flex-row mr-1">
+        {data.articles.map(item => (
+          <CardBlog
+            key={item.id}
+            category={item.category}
+            author={item.author}
+            content={item.content}
+            date={item.date}
+          />
+        ))}
       </div>
     </>
   );
