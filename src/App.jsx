@@ -10,10 +10,10 @@ const App = () => {
       <div className="container">
         <Navbar />
         <MainBlog />
+        {/* <CardSection />
         <CardSection />
         <CardSection />
-        <CardSection />
-        <Footer />
+        <Footer /> */}
       </div>
     </div>
   );
