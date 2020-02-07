@@ -1,22 +1,20 @@
 import React from 'react';
 
-const CardBlog = () => {
+const CardBlog = props => {
   return (
     <>
       <div className="card" style={{ width: '18rem' }}>
         <img
-          src="https://images.unsplash.com/photo-1562887085-22edc4817a9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80"
+          src="https://images.unsplash.com/photo-1558980394-34764db076b4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
           className="card-img-top"
-          alt="..."
+          alt="imagen no encontrada"
         />
         <div className="card-body">
-          <span>Categoria</span>
-          <h5 className="card-title">Card title</h5>
-          <p className="card-text">
-            Some quick example text to build on the card title and make up the bulk of the card's
-            content.
-          </p>
-          <p>02/02/2020</p>
+          <span className="font-weight-bold text-primary">{props.category}</span>
+          <h5 className="card-title h5">{props.title}</h5>
+          <h6 className="card-subtitle mb-2 text-muted">{props.author}</h6>
+          <span className="card-text text-muted d-block">{props.content}</span>
+          <span className="text-muted d-block">{props.date}</span>
         </div>
       </div>
     </>
