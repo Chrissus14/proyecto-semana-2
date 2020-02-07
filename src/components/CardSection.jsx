@@ -5,6 +5,11 @@ const CardSection = ({ data }) => {
   return (
     <>
       <div className="d-md-flex flex-row">
+        {/**
+         * Recorre los datos recibidos a travez de propiedades
+         * y renderiza el componente CardBlog por cada elemento que
+         * haya cumplido con la condición
+         */}
         {data.articles.map(item => (
           <CardBlog
             key={item.id}
