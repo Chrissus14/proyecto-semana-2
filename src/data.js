@@ -1,7 +1,7 @@
 const data = [
   {
     id: 1,
-    category: 'nMarketing',
+    category: 'Marketing',
     articles: [
       {
         id: 1,

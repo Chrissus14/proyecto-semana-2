@@ -4,7 +4,7 @@ import CardBlog from './CardBlog';
 const CardSection = ({ data }) => {
   return (
     <>
-      <div className="d-md-flex flex-row mr-1">
+      <div className="d-md-flex flex-row">
         {data.articles.map(item => (
           <CardBlog
             key={item.id}
